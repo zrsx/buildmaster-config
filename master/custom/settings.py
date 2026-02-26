@@ -20,7 +20,9 @@ DEFAULTS = dict(
     email_relay_host="mail.example.org",
     from_email="buildbot@example.org",
     verbosity=1,
-    git_url="https://github.com/python/cpython",
+    git_url="https://github.com/zrsx/cpython",
+    github_change_hook_secret = r"KZ<GjxG}H)>5he*o5v.8Q_[e4&hlUZ5x*;",
+    host='0.0.0.0',
     use_local_worker=False,
     discord_webook="https://discordapp.com/api/webhooks/",
 )
