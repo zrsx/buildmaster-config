@@ -54,4 +54,4 @@ ujson==5.13.0
 unidiff==0.7.5
 urllib3==2.7.0
 Werkzeug==3.1.8
-zope.interface==8.4
+zope.interface==8.5
