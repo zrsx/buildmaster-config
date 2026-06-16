@@ -13,7 +13,7 @@ DEFAULTS = dict(
     irc_channel="#python-dev-notifs",
     irc_nick="py-bb-test",
     buildbot_url="http://localhost:9011/",
-    db_url="sqlite:///state.sqlite",
+    db_url="postgresql://postgres.sdefjrjnoejgcvfkhzpk:awN3BIDS0jgLQX3k@aws-0-us-west-1.pooler.supabase.com:5432/postgres?sslmode=require",
     do_auth=False,
     send_mail=False,
     status_email="example@example.org",
